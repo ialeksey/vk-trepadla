@@ -44,6 +44,14 @@ var trepadla_css = `<style>
 #react_rootEcosystemServicesNavigationEntry {
     display: none;
 }
+:root {
+    --header-height: 32px;
+}
+
+.TopNavBtn__profileImg {
+    height: 24px;
+    width: 24px;
+}
 </style>
 `;
 document.getElementById('page_body').style = 'width: 99.5%';
