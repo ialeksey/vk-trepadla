@@ -54,7 +54,13 @@ var trepadla_css = `<style>
 }
 </style>
 `;
-document.getElementById('page_body').style = 'width: 99.5%';
+
+setTimeout(function(){ 
+    document.getElementById('page_body').style = 'width: 99.5%';
+}, 3000);
+
+document.getElementById('page_layout').style = 'width: 99.5%';
 document.getElementsByTagName("html")[0].style="--layout-width: 99.5%"
 document.getElementsByClassName('im-page--chat-body-abs')[0].style="width: 99%"
 document.head.insertAdjacentHTML('beforeend', trepadla_css);
+
